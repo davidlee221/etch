@@ -1,0 +1,23 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-area{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    margin: 10px;
+}
+.grid-row {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1px;
+    width: 960px;
+    height: 50px;
+    padding-bottom: 1px;
+}
+.grid-item {
+    box-sizing: border-box;
+    background-color: #ddd;
+    height: 100%;
+}
